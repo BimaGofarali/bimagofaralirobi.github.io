@@ -1,0 +1,141 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'segoe ui';
+  width: auto;
+}
+
+.nav {
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: auto;
+  background-color: black;
+  position: relative;
+}
+
+.nav .nav-header {
+  display: inline;
+}
+
+.nav .nav-header .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav .nav-links a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+button {
+  display: inline-block;
+  height: 35px;
+  width: 80px;
+  border-radius: 5px;
+  outline: none; 
+  background-color: white;
+  margin-bottom: 5px;
+  color: black;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  padding: 8% 5% 8% 5%;
+  background-color: white;
+}
+main .col {
+padding-right: 5%;
+}
+
+.col h1 {
+  width: 400px;
+}
+.col p {
+  padding-top: 5%;
+}
+
+.contents {
+  display: flex;
+  align-items: center;
+}
+
+.tombol a .subscribe{
+  height: 50px;
+  width: 150px;
+  outline: none; 
+  margin-bottom: 5px;
+  color: white; 
+  background-color: red;
+  margin-top: 35px;
+  border: 4px solid white;
+}
+
+footer {
+  width: 100%;
+  padding: 5% 5% 5% 0;
+  background-color: #6F6F6F;
+  background-size: cover;
+}
+
+.container .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .logo {
+  font-size: 25px;
+  color: black;
+}
+
+.footer .blog {
+  color: black;
+}
+.footer p {
+  width: 350px;
+  height: 20px;
+}
+
+.link1 .link2 {
+position: relative;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer > .vi {
+  display: inline-block;
+  vertical-align: middle; 
+  position: relative;
+}
+
+.blog {
+  float: right;
+}
+
+.vl {
+  display: flex;
+  border-left: 3px solid black;
+  height: 150px;
+  position: relative;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+  justify-content: center;  
+}
+
