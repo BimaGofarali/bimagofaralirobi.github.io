@@ -1,117 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas 2 Bima</title>
-    <link rel="stylesheet" href="Bima.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="Bima.css">
+  <title>tugas week2</title>
 </head>
 <body>
-    <header>
-        <div class="nav">
-            <div class="nav-header">
-              <div class="nav-title">
-                LOGO
-              </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid d-print-inline-block">
+      <a class="navbar-brand" href="#">Information</a>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Galeri</a>
+          <a class="nav-link" href="#">Contact</a>
+         <button class="btn btn-secondary btn-sm" type="button">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- main write -->   
+ <main>
+  <div class="row align-items-center justify-content-center mx-5 my-5">
+    <div class="col">
+      <di class="contents">
+            <h1>Your Best Value Proposition</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus debitis aut consectetur consequuntur dolorem esse error ipsum ut libero,
+                suscipit vitae cum optio in saepe commodi quam! Perspiciatis, 
+                soluta eaque!
+            </p>
+            <button class="btn btn-danger mt-4 btn-lg w-50" type="button">Subscribe</button>
+    </div>
+    <!-- Slider -->
+    <div class="col">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="alam.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
             </div>
-            <div class="nav-links">
-                <a href="" target="">link1</a>
-                <a href="" target="">link2</a>
-                <a href="" target="">Link3</a>
-                <a href="" target="">link4</a>
-                <button class="btn">Subscribe</button>
-              </div>
-            </div>
-    </header>
-
-        <main>
-            <div class="contents">
-                <div class="col">
-                    <h1>Your Best Value Proposition</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Accusamus debitis aut consectetur consequuntur dolorem esse error ipsum ut libero,
-                        suscipit vitae cum optio in saepe commodi quam! Perspiciatis, 
-                        soluta eaque!
-                    </p>
-                    <div class="tombol">
-                        <a href=""><button class="subscribe" type="button">Start to Subscribe</button></a>
-                    </div>
-                    
-                </div>
-                <div class="container">
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                      </ol>
-                  
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img src="alam.jpg" alt="Alam" style="width:100%;">
-                        </div>
-                  
-                        <div class="item">
-                          <img src="alam.jpg" alt="Alam" style="width:100%;">
-                        </div>
-                      
-                        <div class="item">
-                          <img src="alam.jpg" alt="Alam" style="width:100%;">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
-            </div>
-        </main>
-        <footer>
-          <div class="container">
-            <div class="footer">
-              <div class="logo">Logo</div>
-              <div class="vl"></div>
-              <div class="blog">
-                  <p>Lastes Blog Post</p>
-                  <h2>Get Ready to Start</h2>
-                  <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis molestias.
-                      Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam voluptatem veniam,
-                      est atque cumque eum delectus sint! 
-                  </p>
-              </div>
-              <vi class="divider"></vi>
-              <div class="link1">
-                      <div class="judul"> Hobby :</div>
-                      <ul>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                      </ul>
-                      <div class="copy">© 2010 — 2020</div>
-                      </div>
-                <div class="link2">
-                  <div class="judul"> Project :</div>
-                  <ul>
-                    <li><a href="">link</a></li>
-                    <li><a href="">link</a></li>
-                    <li><a href="">link</a></li>
-                    <li><a href="">link</a></li>
-                  </ul>
-                  <div class="write">Privacy — Terms</div> 
-                </div> 
-                  </div>
-
-
-                </div>
-           </footer>
           </div>
-  </body>
+          <div class="carousel-item">
+            <img src="alam.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="alam.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+<!-- card -->
+  <div class="row row-cols-1 row-cols-md-5 g-2 align-items-center justify-content-center">
+    <div class="col">
+      <div class="card">
+        <img src="alam.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
 
+    <div class="col">
+      <div class="card">
+        <img src="alam.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="alam.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Form -->
+    <div class="col row-cols-md-2 align-items-center justify-content-center">
+      <h2>Contact</h2>
+      <div class="mb-3 px-5">
+        <label for="name"> Name</label>
+        <input type="text" id="name" class="form-control">
+      </div>
+      <div class="mb-3 px-5">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1">
+      </div>
+      <div class="mb-3 px-5">
+        <label for="Subject"> Subject</label>
+        <textarea type="text" id="comentar" class="form-control" style="height: auto">
+        </textarea>
+      </div>
+    </div>
+</main>    
+
+    <!-- Footer -->
+  <div class=" col bg-secondary">
+      <div class="container align-items-center d-flex justify-content-start">
+          <div class="logo">
+            <img src="#">
+          </div>
+          <div class="vl"></div>
+          <div class="blog mx-5 py-2 px-3">
+              <p>Lastes Blog Post</p>
+              <h2>Get Ready to Start</h2>
+              <article>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis molestias.
+                  Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam voluptatem veniam,
+                  est atque cumque eum delectus sint! 
+              </article>
+          </div>
+          <vi class="divider"></vi>
+          <div class="container-fluid">
+            <div class="bagianlist d-flex justify-content-evenly">
+              <div class="list1">
+                <div class="judul"> Hobby :</div>
+                  <li><a href="#">link</a></li>
+                  <li><a href="#">link</a></li>
+                  <li><a href="#">link</a></li>
+                  <li><a href="#">link</a></li>
+                </div>
+          <div class="list2">
+            <div class="judul"> Project :</div>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+          </div> 
+            </div>
+            <div class="copyright d-flex">
+              <p>@ 2010 — 2020 </p>
+              <p>Privacy — Terms</p>
+            </div>
+        </div>
+      </div>
+  </div>
+</body>
 </html>
